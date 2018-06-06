@@ -1,0 +1,18 @@
+.top {
+    z-index: 3;
+    position: fixed; 
+    width: 100%; 
+    top: 0px;
+}
+
+.main { 
+    width: 100%; 
+}
+
+.offers {
+    width: 100%;
+}
+
+.personnel {
+    width: 100%;  
+}

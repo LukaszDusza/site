@@ -1,0 +1,26 @@
+<mat-card class="card">
+
+    <mat-card-header>
+      <div mat-card-subtitle class="image"></div>
+      <mat-card-title class="title">{{content.title}}</mat-card-title>
+      <mat-card-subtitle>{{content.subTitle}}</mat-card-subtitle>
+    </mat-card-header>
+    
+    <div class="img-box">
+        <img mat-card-image src="{{content.imgHeader}}" alt="foto-course">
+    </div>
+    
+    <mat-card-content>
+      <p>{{content.contentP1}}</p>
+      <p>{{content.contentP2}}</p>
+      <p>{{content.contentP3}}</p>
+      <p>{{content.contentP4}}</p>      
+    </mat-card-content>
+
+    <mat-card-actions>
+      <div class="button-box">
+          <button mat-raised-button color="primary" class="button">{{content.buttonDetails}}</button>
+      </div>
+    </mat-card-actions>
+
+</mat-card>

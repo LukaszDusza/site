@@ -1,0 +1,25 @@
+<mat-toolbar class="toolbar">
+
+    <div class="logo-box">
+        <a href="#top"><div class="logo"></div></a>            
+        <div class="text-block-logo">                          
+               <span>{{texts.title}}</span>
+           </div>
+    </div>
+
+        <div class="info-box">
+            <div class="text-block-info">          
+                <span>{{texts.infoBox1}}</span>
+            </div>                        
+            <div class="text-block-info">                           
+                <span>{{texts.infoBox2}}</span>
+            </div>       
+            <div class="text-block-info">          
+                <span>{{texts.infoBox3}}</span>
+            </div>                
+        </div> 
+        <div class="login-box">
+            <a mat-button routerLink="#"  matTooltip="{{texts.loginToolTip}}" [matTooltipPosition]="position.value">{{texts.login}}</a>                
+        </div>  
+                                                                  
+  </mat-toolbar>

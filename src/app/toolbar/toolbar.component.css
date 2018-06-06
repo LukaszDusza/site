@@ -1,0 +1,73 @@
+
+.text-block-logo {
+    min-width: 70px;
+    font-size: 19px;
+    text-align: left;
+    margin-bottom: 3px;
+    padding: 9px;
+    margin: 0 auto;
+    display: block; 
+    float: left;
+}
+
+.logo {
+    margin-top: 2px;
+    padding: 9px;
+    width: 30px;
+    background-image: url("/assets/images/tube-logo.png"); 
+    height: 30px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block; 
+    float: left;
+}
+
+.logo:hover
+{
+    cursor: pointer;
+    transform: rotate(20deg);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.text-block-info {
+    font-size: 12px;
+    margin-bottom: 0px;
+    padding: 9px;
+    margin: 0 auto;    
+    float: left; 
+ 
+}
+
+.logo-box {
+    position: absolute;
+    float: left;
+    top: 6px;
+    display: block; 
+    left: 10px;
+}
+
+.login-box {
+    position: absolute;
+    float: right;
+    right: 10px;
+    display: block; 
+    font-size: 12px;
+    padding: 9px;
+    margin: 0 auto;
+}
+
+.info-box {
+margin: auto;
+width: 80%;
+}
+
+toolbar {
+    height: 100%;   
+}
+
+@media (max-width: 1340px) {
+    .info-box {
+       display: none;
+    }
+
+}

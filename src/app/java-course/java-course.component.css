@@ -1,0 +1,27 @@
+.title {
+    font-weight: 500;
+    font-size: 2vh;
+}
+
+.card {
+    margin: 5px;
+    max-width: 400px;
+    float: left;
+  }
+
+  .img-box {
+      width: 50%;
+      margin: auto;
+  }
+
+  .image {
+    background-repeat: no-repeat;    
+  }
+
+  .button {     
+      float: left;
+  }
+  .button-box {
+      margin: auto;
+      width: 90%;
+  }
