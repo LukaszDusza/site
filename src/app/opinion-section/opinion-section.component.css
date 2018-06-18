@@ -1,0 +1,30 @@
+.box {
+  margin: auto;
+    width: 90%;   
+    height: 100%; 
+    clear: both;   
+}
+
+.img { 
+margin-top: 10px;
+text-align: center;
+min-width: 90px;
+width: 20%;
+min-height: 90px;
+height: 100%;
+background-repeat: no-repeat;
+height: fit-content;
+float: left;
+
+}
+
+.content {  
+    margin: auto; 
+    font-size: large;
+    display: block; 
+    width: 65%;
+    text-align: left;
+    min-height: 90px;
+    height: 100%;
+    float: left;   
+}

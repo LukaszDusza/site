@@ -21,6 +21,7 @@ import { JavaCourseComponent } from './java-course/java-course.component';
 import { PersonnelComponent } from './personnel/personnel.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { OffersComponent } from './offers/offers.component';
+import { OpinionSectionComponent } from './opinion-section/opinion-section.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { OffersComponent } from './offers/offers.component';
     PersonnelComponent,
     ToolbarComponent,
     OffersComponent,
+    OpinionSectionComponent,
   ],
   imports: [
     BrowserModule,

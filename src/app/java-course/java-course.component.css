@@ -12,6 +12,7 @@
   .img-box {
       width: 50%;
       margin: auto;
+      clear: both;
   }
 
   .image {
